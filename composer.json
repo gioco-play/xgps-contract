@@ -1,0 +1,18 @@
+{
+    "name": "gioco-plus/xgps-contract",
+    "description": "xgps Interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tkd9714",
+            "email": "chunwei.liu@goldenf.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\XGPS\\": "src/"
+        }
+    },
+    "require": {}
+}
