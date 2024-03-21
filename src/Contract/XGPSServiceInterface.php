@@ -14,18 +14,20 @@ interface XGPSServiceInterface {
      * @param string $game_code
      * @param string $language
      * @param string $backUrl
+     * @param string $vendor_code
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language);
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $vendor_code);
 
     /**
      * 遊戲詳情
      * @param string $op_code
      * @param string $bet_id
      * @param string $language
+     * @param string $vendor_code
      * @return mixed
      */
-    function gameDetail(string $op_code, string $bet_id, string $language);
+    function gameDetail(string $op_code, string $bet_id, string $language, string $vendor_code);
 
     /**
      * 會員帳號轉換(GF->XGPS)
